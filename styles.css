@@ -2,11 +2,6 @@ body {
   background-color: black;
   font-family: "Poppins", sans-serif;
 }
-
-h1 {
-  color: red;
-}
-
 .sidebar {
   position: fixed;
   top: 0;
@@ -15,13 +10,11 @@ h1 {
   padding: 12px;
   width: 300px;
 }
-
 .sidebar__navigation {
   background-color: #121212;
   border-radius: 8px;
   padding: 16px 0 0 16px;
 }
-
 .sidebar__navigation .logo {
   background: #121212;
   display: flex;
@@ -32,12 +25,10 @@ h1 {
 .logo img {
   width: 110px;
 }
-
 .sidebar nav ul {
   margin-top: 20px;
   padding: 0 20px 10px 20px;
 }
-
 .sidebar ul li {
   padding: 10px 0px;
 }
@@ -52,40 +43,18 @@ h1 {
 
 .library-tab {
   background-color: #121212;
-  margin: 0;
   border-radius: 8px;
-  padding: 5px;
+  padding: 20px; /* Ajuste o padding conforme necessário */
   margin-top: 20px;
+  display: flex; /* Usando flexbox */
   align-items: center;
-}
-.library-tab .library__content {
-  display: flex;
-  flex-direction: column;
 }
 
 .library-tab a {
-  background: #121212;
-  flex-direction: column;
-  text-decoration: none;
   color: #b3b3b3;
-  display: flex;
-  padding: 4px 8px;
+  text-decoration: none;
   font-weight: 600;
   font-size: 14px;
-  justify-content: space-between;
   font-family: "DM Sans", sans-serif;
-}
-.library-tab .library__button {
-  display: flex;
-  margin-right: 10px;
-  color: #b3b3b3;
-  background-color: transparent;
-  border: 0px;
-  font-size: 14px;
-  font-weight: 700px;
-  font-family: "DM Sans", sans-serif;
-  text-align: center;
-  text-decoration: none;
-  text-transform: none;
-  padding: 20px 10px;
+  margin-left: 10px;
 }
